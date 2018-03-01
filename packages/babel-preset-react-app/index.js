@@ -124,6 +124,8 @@ if (env === 'test') {
           async: false,
         },
       ],
+      // [FAICON] Adds syntax support for import()
+      require.resolve('babel-plugin-transform-decorators-legacy'),
       // Adds syntax support for import()
       require.resolve('babel-plugin-syntax-dynamic-import'),
     ]),
